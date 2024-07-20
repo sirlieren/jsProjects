@@ -1,0 +1,103 @@
+*{
+    font-family: "Poppins",sans-serif;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(33, 11, 79);
+}
+
+.container{
+    background-color: aliceblue;
+    width: 80vw;
+    max-width: 40em;
+    padding: 3.5em 2.5em;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    top:50%;
+    left:50%;
+    border-radius: .62em;
+    box-shadow: 0 1.25em 1.8em rgba(41, 9, 104, 0.25);
+}
+.search-wrapper{
+    display: grid;
+    grid-template-columns: 9fr 3fr;
+    gap:1em;
+}
+
+.search-wrapper button{
+    font-size: 1em;
+    background-color:rgb(33, 11, 79);
+    color: aliceblue;
+    border: none;
+    border-radius: 15px;
+    padding: 0.8em 0;
+}
+
+.search-wrapper input{
+    color: rgb(30, 9, 71);
+    background-color: aliceblue;
+    font-size: 1em;
+    padding:0 0.62em;
+    outline: none;
+    border: none;
+    border-bottom: 2px solid rgb(98, 32, 232);
+}
+.container .flag-img{
+    display: block;
+    width: 45%;
+    min-width: 7.4em;
+    margin:2em auto 1.2em auto;
+    box-shadow: 8px 5px 20px rgba(14, 4, 33, 0.323);
+}
+.container h2{
+    width:8em;
+    font-size: 2em;
+    font-weight: 700;
+    text-align: center;
+    background-color: rgb(72, 22, 169);
+    padding:auto;
+    margin: 10px auto 30px auto;
+    color: aliceblue;
+    border: none;
+    border-radius: 1.3em;
+    letter-spacing: 2px;
+}
+.data-wrapper{
+    margin-top:1em ;
+    margin-bottom: 0.8em;
+    letter-spacing: 0.3px;
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+    text-align: center ;
+}
+.container h4{
+    display: inline-block;
+    font-size:1.2em;
+    background-color: rgb(47, 15, 111);
+    width: 8em;
+    border: none;
+    border-radius: 1.2em;
+    padding: .1em 1em;
+    font-weight: 500;
+    color:aliceblue;
+}   
+.container span{
+    font-weight: 300;
+    display:block;
+    margin:0 auto;
+    padding:.2em 0px;
+    text-align: center;
+    border:none;
+}
+.container h3{
+    text-align: center;
+    font-weight: 500;
+    font-style: italic;
+    font-size: 1em;
+    margin-top:1em;
+    margin-bottom: -2em;
+}

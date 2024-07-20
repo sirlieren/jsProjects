@@ -1,0 +1,109 @@
+* {
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+    font-family:"Poppins",sans-serif;
+}
+
+body{
+    background-color:whitesmoke;
+}
+.container{
+    width: 350px;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    top:50%;
+    left:50%;
+}
+#card{
+    position: relative;
+    width: 100%;
+  
+    padding: 30px 20px;
+    border: 0;
+    
+    border-radius: 8px;
+}
+#card img{
+    display: block;
+    width: 200px;
+    max-height: 220px;
+    position: relative;
+    margin:20px auto;
+}
+.hp{
+    background-color: aliceblue;
+    padding: 7px 0px;
+    margin-left : auto;
+    border-radius: 18px;
+    width: 80px;
+    text-align: center;
+    font-weight: 500;
+    
+}
+.char-name{
+    width: 200px;
+    background-color: rgba(32, 129, 232, 0.621);
+    box-shadow: 0 5px 10px rgba(10, 26, 107, 0.621);
+    border: none;
+    border-radius: 25px;
+    text-align: center;
+    padding: auto;
+    margin:auto;
+    font-weight: 300;
+    color: rgb(255, 255, 255);
+}
+.types{
+    display: flex;
+    justify-content: space-around;
+    margin: 25px 0 30px 0;
+}
+.hp span,
+.types span{
+    font-size:16px;
+    letter-spacing: 0.2px;
+    font-weight: 400px;
+
+    height: 25px;
+    margin: auto;
+  
+    color:black;
+    }
+
+.types span{
+       
+        color:whitesmoke;
+        margin: auto;
+        border-radius: 15px;
+        align-items: center;
+        text-align: center ;
+        justify-content:space-around;
+        margin: 15px auto;
+        margin: 15px auto;
+        padding: 0px 20px;
+}
+
+
+
+.stats{
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+    text-align: center ;
+    color: rgb(31, 52, 52);
+}
+#btn{
+    display: block;
+    font-size: 22px;
+    width: 350px;
+    font-weight: 550;
+    text-align: center;
+    margin: 15px auto;
+    padding: 12px 0;
+    color :rgba(4, 22, 42, 0.882);
+    background-color: white;
+    box-shadow: 0 5px 10px rgba(10, 46, 225, 0.238);
+    border-radius: 8px;
+    border: none;
+    position: relative;
+}
