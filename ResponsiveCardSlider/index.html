@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Card Slider</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+
+</head>
+
+<body>
+    <div class="container swiper">
+        <div class="sliderWrapper">
+            <div class="cardList swiper-wrapper">
+                <div class="cardItem swiper-slide">
+                    <img src="./Assets/images/img-1.jpg" alt="User Image" class="userImage">
+                    <h2 class="userName">John Morrison</h2>
+                    <p class="userInfo">UI Artist</p>
+                    <button class="messageBtn">Message</button>
+                </div>
+                <div class="cardItem swiper-slide">
+                    <img src="./Assets/images/img-2.jpg" alt="User Image" class="userImage">
+                    <h2 class="userName">Charlotte Flair</h2>
+                    <p class="userInfo">Software Developer</p>
+                    <button class="messageBtn">Message</button>
+                </div>
+                <div class="cardItem swiper-slide">
+                    <img src="./Assets/images/img-3.jpg" alt="User Image" class="userImage">
+                    <h2 class="userName">Damian Priest</h2>
+                    <p class="userInfo">Data Analyst</p>
+                    <button class="messageBtn">Message</button>
+                </div>
+                <div class="cardItem swiper-slide">
+                    <img src="./Assets/images/img-4.jpg" alt="User Image" class="userImage">
+                    <h2 class="userName">Liv Morgan</h2>
+                    <p class="userInfo">UI Artist</p>
+                    <button class="messageBtn">Message</button>
+                </div>
+                <div class="cardItem swiper-slide">
+                    <img src="./Assets/images/img-5.jpg" alt="User Image" class="userImage">
+                    <h2 class="userName">John Cena</h2>
+                    <p class="userInfo">Software Developer</p>
+                    <button class="messageBtn">Message</button>
+                </div>
+                <div class="cardItem swiper-slide">
+                    <img src="./Assets/images/img-6.jpg" alt="User Image" class="userImage">
+                    <h2 class="userName">Sami Zayn</h2>
+                    <p class="userInfo">Software Developer</p>
+                    <button class="messageBtn">Message</button>
+                </div>
+
+
+            </div>
+            <div class="swiper-pagination"></div>
+
+            <div class="swiper-slide-button swiper-button-prev"></div>
+            <div class="swiper-slide-button swiper-button-next"></div>
+
+        </div>
+
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

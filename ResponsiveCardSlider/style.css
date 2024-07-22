@@ -1,0 +1,99 @@
+* {
+    font-family: "Inter", sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background: url("./Assets/images/bg.jpg") #030728 no-repeat center;
+}
+
+.cardList .cardItem {
+    color: aliceblue;
+    user-select: none;
+    background-color: rgba(255, 255, 255, .2);
+    width: 400px;
+    border-radius: 5%;
+    padding: 30px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    backdrop-filter: blur(20px);
+    border: 2px solid rgba(240, 248, 255, 0.425);
+    transition: .5s ease;
+
+}
+
+.cardList .cardItem:hover {
+    background-color: rgba(255, 255, 255, .22);
+    backdrop-filter: blur(25px);
+}
+
+.cardList .cardItem .userImage {
+    border-radius: 50%;
+    width: 250px;
+    height: 250px;
+    border: 3px solid rgb(240, 248, 255);
+    padding: 5px;
+    margin-bottom: 15px;
+}
+
+.cardList .cardItem .userName {
+    font-size: 2em;
+    font-weight: 700;
+}
+
+.cardList .cardItem .userInfo {
+    font-size: 1.2em;
+    font-style: italic;
+    font-weight: 200;
+    margin: 5px 0px;
+}
+
+.cardList .cardItem .messageBtn {
+    font-size: 2em;
+    font-weight: 300;
+    margin: 35px 0px 0 0;
+    padding: 5px 20px;
+    border: none;
+    border-radius: 5px;
+    border: 2px solid aliceblue;
+    background-color: rgba(255, 255, 255, 0);
+    cursor: pointer;
+    color: aliceblue;
+    transition: .3s ease;
+}
+
+.cardList .cardItem .messageBtn:hover {
+    border: 2px solid rgba(240, 248, 255, 0.419);
+    background-color: rgba(255, 255, 255, 0.1);
+
+}
+
+.sliderWrapper {
+    overflow: hidden;
+    max-width: 1200px;
+    margin: 50px 70px 55px;
+}
+
+.sliderWrapper .swiper-pagination-bullet {
+    background-color: aliceblue;
+    height: 15px;
+    width: 15px;
+}
+
+.sliderWrapper .swiper-slide-button {
+    color: aliceblue;
+    margin-top: -50px;
+    transition: .2s;
+}
+
+.sliderWrapper .swiper-slide-button:hover {
+    color: #7d85e6;
+}
