@@ -1,0 +1,108 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(30, 61, 39);
+    color: rgb(30, 61, 39);
+}
+
+.wrapper {
+    width: min(90%, 800px);
+    position: absolute;
+    transform: translateX(-50%);
+    top: 1em;
+    left: 50%;
+    background-color: aliceblue;
+    padding: 1em 3em;
+    border-radius: .4em;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1em;
+    border-radius: 5px;
+}
+
+.container .image-container,
+.container .preview-container {
+    width: 100%;
+}
+
+input[type="file"] {
+    display: none;
+}
+
+label {
+    display: block;
+    position: relative;
+    background-color: rgb(30, 61, 39);
+    color: aliceblue;
+    font-size: 14px;
+    text-align: center;
+    width: 250px;
+    padding: 15px 0px;
+    border-radius: .3em;
+    margin: 10px auto;
+    cursor: pointer;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+}
+
+.image-container {
+    width: 60%;
+    margin: 0 auto;
+}
+
+.options {
+    display: flex;
+    justify-content: center;
+    gap: 1em;
+}
+
+input[type="number"] {
+    width: 100px;
+    padding: 16px 5px;
+    border-radius: 0.3em;
+    border: 2px solid rgb(15, 15, 15);
+}
+
+button {
+    padding: 1em;
+    border-radius: .3em;
+    border: 2px solid rgb(30, 61, 39);
+    background-color: aliceblue;
+    color: rgb(30, 61, 39)
+}
+
+.btns {
+    display: flex;
+    justify-content: center;
+    gap: 1em;
+    margin-top: 1em;
+}
+
+.btns button {
+    font-size: 1em;
+}
+
+.btns a {
+    border: 2px solid rgb(30, 61, 39);
+    background-color: rgb(30, 61, 39);
+    color: aliceblue;
+    text-decoration: none;
+    padding: 1em;
+    font-size: 1em;
+    border-radius: .3em;
+}
+
+.hide {
+    display: none;
+}

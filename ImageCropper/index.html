@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Cropper</title>
+    <link href="style.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/cropperjs/1.6.2/cropper.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/cropperjs/1.6.2/cropper.min.css">
+</head>
+
+<body>
+    <div class="wrapper">
+        <div class="container">
+            <div class="image-container">
+                <img id="image">
+            </div>
+            <div class="preview-container">
+                <img id="preview-image">
+            </div>
+        </div>
+        <input type="file" id="file" accept="image/*" />
+        <label for="file">Choose Photo</label>
+        <div class="options hide">
+            <input type="number" id="height-input" placeholder="Enter Height" max="780" />
+
+            <input type="number" id="width-input" placeholder="Enter Width" max="780" />
+
+            <button class="aspect-ration-button">
+                16:9
+            </button>
+            <button class="aspect-ration-button">
+                4:3
+            </button>
+            <button class="aspect-ration-button">
+                1:1
+            </button>
+            <button class="aspect-ration-button">
+                2:3
+            </button>
+            <button class="aspect-ration-button">
+                Free Aspect
+            </button>
+        </div>
+        <div class="btns">
+            <button id="preview" class="hide">Preview</button>
+            <a href="" id="download" class="hide">Download</a>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>

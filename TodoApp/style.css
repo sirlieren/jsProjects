@@ -1,0 +1,224 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins";
+    font-size: 30px;
+    cursor: none;
+}
+
+
+
+.background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    min-height: 100vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.7),
+            rgba(0, 0, 0, 1)),
+        url(./Images/background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: -1;
+
+    margin: 0px;
+
+}
+
+
+.container {
+    z-index: 2;
+    display: flex;
+    flex-direction: column;
+    margin: 50px auto;
+    width: 70vw;
+
+}
+
+.todoAdd {
+    background-color: rgba(240, 248, 255, 0.4);
+    width: 100%;
+    height: 120px;
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+    border-radius: 10px;
+    border-bottom: 6px solid rgb(200, 200, 200);
+    transition: .3s;
+
+}
+
+.todoAdd input:focus {
+    border-bottom: 3.5px solid rgb(200, 200, 200);
+    transition: .2s;
+}
+
+.todoAdd input {
+    font-size: 1em;
+    padding: 2px;
+    border: none;
+    color: aliceblue;
+    outline: none;
+    border-bottom: 3px solid rgb(175, 175, 175);
+    width: 80%;
+    display: flex;
+    background-color: transparent;
+    margin: auto;
+    transition: .2s;
+}
+
+.todoAdd button {
+    direction: flex;
+    height: 60px;
+    margin: auto;
+    width: 120px;
+    outline: none;
+    background-color: rgba(65, 65, 65, 0.2);
+    border: none;
+
+    color: aliceblue;
+    font-size: 1.2em;
+    border-radius: .2em;
+    border-bottom: 6px solid rgb(145, 145, 145);
+    transition: .5s;
+}
+
+.todoAdd button:hover {
+    box-shadow: rgba(255, 255, 255, 0.9) 0px 0px 18px;
+    transition: .3s;
+}
+
+.todoList {
+    margin-top: 20px;
+}
+
+.todoList .todo {
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+
+    justify-items: center;
+    background-color: rgba(240, 248, 255, 0.4);
+    border-radius: 10px;
+    border-bottom: 6px solid rgb(175, 175, 175);
+    color: aliceblue;
+    height: 100%;
+
+    margin: auto;
+    margin-bottom: 20px;
+    transition: .4s;
+
+}
+
+.text {
+    height: 100%;
+    margin: auto;
+    width: 100%;
+    display: flex;
+    justify-content: left;
+    flex-direction: row;
+
+}
+
+
+
+.mainText,
+.counter {
+    font-size: 1.2em;
+    height: 100%;
+}
+
+.counter {
+    color: rgba(255, 255, 255, 0.512);
+}
+
+.mainText {
+    font-weight: 400;
+}
+
+
+
+.todo:hover {
+    box-shadow: rgba(255, 255, 255, 0.9) 0px 0px 10px;
+    transition: .2s;
+}
+
+.onEdit,
+.onEdit:hover {
+    box-shadow: rgba(255, 255, 255, 0.9) 0px 0px 30px;
+    transition: .3s;
+}
+
+.todo p,
+.todo input {
+    font-size: 1em;
+    height: 100%;
+    margin: 5px 0px;
+
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-between;
+    right: 0px;
+    transition: .3s;
+
+}
+
+.buttons :hover {
+
+    transition: .3s;
+}
+
+.icons {
+    height: 50px;
+    flex-direction: row;
+    display: flex;
+    padding-left: 10px;
+    margin: auto;
+    transition: .5s;
+
+}
+
+.icons:hover {
+    height: 55px;
+}
+
+.todoEdit {
+    border: none;
+    outline: none;
+    display: flex;
+    flex-direction: row;
+    background-color: transparent;
+    color: rgb(206, 255, 211);
+    border-bottom: 3px solid rgb(175, 175, 175);
+    width: 90%;
+    font-style: italic;
+}
+
+.Header h2 {
+    color: aliceblue;
+    font-size: 2em;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin: 20px auto;
+    text-align: center;
+    font-weight: 700;
+    border-bottom: 3px solid rgba(240, 240, 240, 0.8);
+
+}
+
+.circle {
+    height: 18px;
+    width: 18px;
+    border-radius: 18px;
+    background-color: rgba(240, 248, 255, 0.9);
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 2;
+    cursor: none;
+    pointer-events: none;
+}

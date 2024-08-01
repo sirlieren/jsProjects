@@ -1,0 +1,72 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+body {
+    background-color: rgba(224, 244, 252, 0.923);
+
+
+    /*font-family: "Edu AU VIC WA NT Hand", sans-serif;*/
+}
+
+
+.container {
+    z-index: 2;
+    background-color: rgba(240, 248, 255, 0.107);
+    width: 50%;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    margin: 220px auto;
+    border-radius: 10px;
+    border: 5px solid rgba(164, 217, 215, 0.514);
+    transition: .3s ease;
+}
+
+.container:hover {
+    border-color: aquamarine;
+}
+
+.quoteBox {
+    height: 90%;
+    padding: 20px;
+
+}
+
+.quoteBox .quote {
+    height: 50%;
+    font-weight: 500;
+    font-size: 1.3em;
+    margin-top: 25px;
+}
+
+.quoteBox .quoteOwner {
+    font-size: 1.1em;
+    font-weight: 300;
+    font-style: italic;
+    padding: 45px 20px;
+}
+
+.quoteBtn {
+    font-size: 1.4em;
+    width: 50%;
+    text-align: center;
+    direction: flex;
+    align-items: center;
+    margin: auto;
+    border: none;
+    outline: none;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    background-color: transparent;
+    border: 2px solid rgb(188, 235, 255);
+    cursor: pointer;
+    transition: .5s;
+}
+
+.quoteBtn:hover {
+    border: 2px solid aquamarine;
+}
