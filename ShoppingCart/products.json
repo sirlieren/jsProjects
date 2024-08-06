@@ -1,0 +1,38 @@
+[
+    {
+        "id": 1,
+        "name": "Adidas Juks",
+        "price": 800,
+        "image": "./Items/adidas.png"
+    },
+    {
+        "id": 2,
+        "name": "Nike Aitro",
+        "price": 1110,
+        "image": "./Items/nike.png"
+    },
+    {
+        "id": 3,
+        "name": "Acics A4",
+        "price": 900,
+        "image": "./Items/axis.png"
+    },
+    {
+        "id": 4,
+        "name": "Nike Airx",
+        "price": 1200,
+        "image": "./Items/nike2.png"
+    },
+    {
+        "id": 5,
+        "name": "Puma Frammer",
+        "price": 600,
+        "image": "./Items/puma.png"
+    },
+    {
+        "id": 6,
+        "name": "Acics Classic",
+        "price": 1300,
+        "image": "./Items/axs2.png"
+    }
+]
