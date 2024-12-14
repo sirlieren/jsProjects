@@ -1,0 +1,119 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+    border: none;
+    outline: none;
+    color: aliceblue;
+}
+
+body {
+    background-color: rgb(215, 227, 250);
+}
+
+.wrapper {
+    width: 90%;
+    max-width: 28em;
+    background: linear-gradient(120deg, rgb(51, 132, 224), rgb(30, 179, 99));
+    position: absolute;
+    transform: translate(-50%, -50%);
+    padding: 2em;
+    left: 50%;
+    top: 50%;
+    border-radius: 1.5em;
+    box-shadow: .6em 1em 2em #273B09;
+}
+
+.app-details {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.app-icon {
+    width: 12em;
+}
+
+.app-title {
+    text-align: center;
+    font-size: 2.2em;
+}
+
+label {
+    display: block;
+    font-weight: 600;
+    margin-top: .25em;
+}
+
+input#amount {
+    font-weight: 400;
+    font-size: 1.3em;
+    background-color: transparent;
+    border-radius: 5px;
+    padding: 0.4em 0 0.2em;
+    padding-left: 10px;
+    width: 100%;
+    border-bottom: .1em solid #7B904B;
+    transition-duration: .3s;
+    appearance: none;
+
+}
+
+input#amount:focus {
+    border-color: #7B904B;
+
+}
+
+.dropdowns {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1em;
+}
+
+select {
+    width: 100%;
+    padding: .7em;
+    background: linear-gradient(120deg, rgb(214, 228, 255), rgb(178, 255, 214));
+    border: none;
+    border-bottom: .1em solid #7B904B;
+    border-radius: 10px;
+    font-size: 1.1em;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    background-image: url("drop-down.svg");
+    margin-top: .5em;
+
+    background-position: right 15px top 50%, center;
+    background-size: 23px 23px;
+    background-repeat: no-repeat;
+
+}
+
+button {
+    font-size: 1.4em;
+    width: 45%;
+    height: 2em;
+    text-align: center;
+    box-shadow: 0.3em 0.2em 2em #273B09;
+    margin: 1em auto 0em auto;
+    background: linear-gradient(120deg, rgb(214, 228, 255), rgb(178, 255, 214));
+    border-radius: 1em;
+    display: block;
+    transition-duration: .5s;
+    color: rgb(14, 14, 14);
+
+}
+
+button:hover {
+    box-shadow: 0.3em 0.2em 2em #273B09;
+}
+
+#result {
+    font-size: 1.4em;
+    text-align: center;
+    margin-top: 1em;
+    padding: 0 .8em 0;
+}

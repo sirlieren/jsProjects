@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Multi-App Dashboard</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <header>
+        <div class="logoAndText">
+            <img class="logo" src="logo.svg">
+            <h1>Multi-App</h1>
+        </div>
+
+        <nav>
+            <button onclick="loadApp('weather/index.html')">Weather</button>
+            <button onclick="loadApp('temp-converter/index.html')">Temperature Converter</button>
+            <button onclick="loadApp('qr-generator/index.html')">QR Creator</button>
+            <button onclick="loadApp('currency-converter/index.html')">Currency Converter</button>
+        </nav>
+    </header>
+
+    <main id="app-container">
+        <p>Use the buttons above to choose one of the applications.</p>
+    </main>
+
+    <script src="scripts.js"></script>
+</body>
+
+</html>

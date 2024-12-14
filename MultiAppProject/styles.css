@@ -1,0 +1,64 @@
+* {
+    font-family: "Poppins", sans-serif;
+}
+
+body {
+    font-family: "Poppins", sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background: linear-gradient(120deg, rgb(92, 157, 231), rgb(66, 207, 132));
+    color: white;
+    padding: 15px;
+    text-align: center;
+    height: 150px;
+}
+
+.logoAndText {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* Dikey ortalama */
+}
+
+.logo {
+    margin-right: 10px;
+    max-width: 70px;
+
+}
+
+nav button {
+    margin: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    background-color: #DBD2E0;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    color: #000000;
+    transition: 0.5s;
+}
+
+nav button:hover {
+    background-color: rgb(92, 157, 231);
+    color: #DBD2E0;
+}
+
+nav button:focus {
+    outline: none;
+    /* Tıklama odak stilini kaldırmak için */
+}
+
+
+#app-container {
+    margin: 20px auto;
+    max-width: 1200px;
+    text-align: center;
+}
+
+iframe {
+    height: 800px;
+    border-radius: 100px;
+}
