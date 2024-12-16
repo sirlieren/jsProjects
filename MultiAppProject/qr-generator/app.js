@@ -21,4 +21,15 @@ function createQR() {
     }
 
 }
+document.getElementById('downloadBtn').addEventListener('click', function () {
+    const image = document.getElementById('qrImage');
+    const link = document.createElement('a');
+
+    link.href = image.src;
+    link.download = 'indirme.jpg';
+    link.target = '_blank';
+    document.body.appendChild(link);
+    link.click(); // Linke tıkla
+    document.body.removeChild(link);
+});
 

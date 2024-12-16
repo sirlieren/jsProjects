@@ -5,11 +5,12 @@
     font-family: "Poppins", sans-serif;
     border: none;
     outline: none;
-    color: aliceblue;
+
 }
 
 body {
     background-color: rgb(215, 227, 250);
+    color: aliceblue;
 }
 
 .wrapper {
@@ -54,14 +55,15 @@ input#amount {
     padding: 0.4em 0 0.2em;
     padding-left: 10px;
     width: 100%;
-    border-bottom: .1em solid #7B904B;
+    border-bottom: .1em solid aliceblue;
     transition-duration: .3s;
     appearance: none;
+    color: aliceblue;
 
 }
 
 input#amount:focus {
-    border-color: #7B904B;
+    border-color: aliceblue;
 
 }
 
@@ -70,14 +72,21 @@ input#amount:focus {
     align-items: center;
     justify-content: space-between;
     gap: 1em;
+    color: aliceblue;
 }
+
+.dropdowns:hover {
+    color: black;
+}
+
+
 
 select {
     width: 100%;
     padding: .7em;
     background: linear-gradient(120deg, rgb(214, 228, 255), rgb(178, 255, 214));
     border: none;
-    border-bottom: .1em solid #7B904B;
+    border-bottom: .1em solid aliceblue;
     border-radius: 10px;
     font-size: 1.1em;
     -webkit-appearance: none;

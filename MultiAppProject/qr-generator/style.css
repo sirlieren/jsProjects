@@ -11,6 +11,7 @@ body {
 
 .container {
     max-width: 30%;
+    min-width: 400px;
     margin: 120px auto;
     background: linear-gradient(120deg, rgb(51, 132, 224), rgb(30, 179, 99));
     height: 400px;
@@ -19,6 +20,8 @@ body {
 
     position: relative;
 }
+
+
 
 .container p {
     color: aliceblue;
@@ -44,8 +47,13 @@ body {
 
 }
 
+.buttons {
+    justify-content: center;
+    display: flex;
+}
+
 .container button {
-    width: 180px;
+    width: 150px;
     height: 50px;
     margin: 5px auto;
     justify-content: center;
@@ -54,7 +62,7 @@ body {
     background: linear-gradient(120deg, rgb(214, 228, 255), rgb(178, 255, 214));
     color: rgb(34, 34, 34);
     display: flex;
-    font-size: 1.3em;
+    font-size: 1.2em;
     text-align: center;
     align-items: center;
     padding: auto;
